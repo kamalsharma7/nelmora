@@ -1,0 +1,91 @@
+:root {
+  --bg-page: #f8f5f0;
+  --bg-deep: #1a120e;
+  --bg-card: #fffcf8;
+  --bg-elevated: #f3ece3;
+  --bg-muted: #e8dfd4;
+  --cream: #2c211c;
+  --cream-muted: #6b5f56;
+  --gold: #b8943f;
+  --gold-light: #d4b56a;
+  --gold-soft: #c9a84c;
+  --plum: #3d2f35;
+  --plum-deep: #241a1f;
+  --chocolate: #4a3228;
+  --accent: #8b5a45;
+  --whatsapp: #25d366;
+  --border: rgba(61, 42, 58, 0.12);
+  --border-strong: rgba(61, 42, 58, 0.22);
+  --radius: 4px;
+  --radius-lg: 8px;
+  --shadow: 0 12px 40px rgba(42, 28, 40, 0.08);
+  --shadow-hover: 0 20px 48px rgba(42, 28, 40, 0.12);
+  font-family: 'Outfit', system-ui, sans-serif;
+  color: var(--cream);
+  background: var(--bg-page);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg-page);
+  color: var(--cream);
+  background-image: radial-gradient(ellipse 90% 50% at 50% -10%, rgba(201, 168, 76, 0.08), transparent 55%);
+}
+
+h1,
+h2,
+h3,
+.brand {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
